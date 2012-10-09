@@ -2,6 +2,7 @@
 
 Vim config mostly inspired by [psyho](https://github.com/psyho) and [sparrovv](https://github.com/sparrovv) configs.
 
+
 # Install
 
 ## Basic installation
@@ -20,4 +21,14 @@ Add below lines to ~/.bash_profile ([more info](http://apple.stackexchange.com/q
 
 	alias vim='mvim -v'
 	export EDITOR=vim
+
+
+# Other
+
+## Command-T Plugin
+Command-T requires a compiled component.
+
+	cd ~/.vim/bundle/Command-T/ruby/command-t
+	ruby extconf.rb
+	make
 
