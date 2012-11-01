@@ -18,3 +18,6 @@ set guioptions-=m
   colorscheme jellybeans
   set cursorline                    " Highlight the current line
 "endif
+
+" Overwrite font
+set gfn=Monaco:h13

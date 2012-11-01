@@ -1,6 +1,4 @@
-# About
 
-Vim config mostly inspired by [psyho](https://github.com/psyho) and [sparrovv](https://github.com/sparrovv) configs.
 
 
 # Install
@@ -10,6 +8,7 @@ Vim config mostly inspired by [psyho](https://github.com/psyho) and [sparrovv](h
 	$ git clone https://github.com/ArturT/vimfiles.git ~/.vim
 	$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 	$ ln -s ~/.vim/vimrc ~/.vimrc
+	$ ln -s ~/.vim/gvimrc ~/.gvimrc
 	$ vim
 	:BundleInstall
 
