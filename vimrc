@@ -466,3 +466,6 @@ nmap <leader>n :tabnew<CR>
 
 " Insert a hash rocket with <c-l>
 imap <c-l> <space>=><space>
+
+" Use Node.js for JavaScript interpretation
+let $JS_CMD='node'

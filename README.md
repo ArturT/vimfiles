@@ -1,6 +1,3 @@
-
-
-
 # Install
 
 ## Basic installation
@@ -33,3 +30,10 @@ You need to compile Command-T with Ruby v 1.8.7. Use RVM to switch between ruby 
 	ruby extconf.rb
 	make
 
+## JSLint.vim Plugin
+To fix issue: `Vim(echoerr): could not invoke JSLint` install [nodejs](http://nodejs.org)
+
+vimrc contains:
+
+	" Use Node.js for JavaScript interpretation
+	let $JS_CMD='node'"
