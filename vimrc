@@ -464,9 +464,5 @@ nmap <leader>tn :tnext<CR>
 nmap <leader>tp :tprev<CR>
 nmap <leader>n :tabnew<CR>
 
-map  <C-]> :tabn<CR>
-map  <C-[> :tabp<CR>
-map  <C-n> :tabnew<CR>
-
 " Insert a hash rocket with <c-l>
 imap <c-l> <space>=><space>
