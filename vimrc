@@ -142,6 +142,10 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
 Bundle "bronson/vim-visual-star-search"
 "----------------------------------------------------------
 
+" Leader key
+let mapleader=","
+let g:mapleader=","
+
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
 
@@ -469,3 +473,14 @@ imap <c-l> <space>=><space>
 
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
+
+" allow moving with j/k in insert mode
+imap <c-j> <Down>
+imap <c-k> <Up>
+imap <c-h> <Left>
+imap <c-l> <Right>
+
+" Load local config
+if filereadable(".vimrc.local")
+  source .vimrc.local
+endif
