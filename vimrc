@@ -472,6 +472,9 @@ nmap <leader>h :noh<CR>
 " Insert a hash rocket with <c-l>
 imap <c-l> <space>=><space>
 
+imap <c-b> <%=<space><space>%><Esc>hhi
+imap <c-v> <%<space><space>%><Esc>hhi
+
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
