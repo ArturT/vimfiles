@@ -440,7 +440,12 @@ map <down>  <C-W>-
 
 map <leader>jf  <Esc>:%!python -m json.tool<CR>
 
-colorscheme jellybeans
+"colorscheme jellybeans
+let g:solarized_termtrans = 1 " 0 when use 256 termscolors
+let g:solarized_termcolors = 16
+let g:solarized_contrast = 'high'
+set background=dark
+colorscheme solarized
 
 "map Esc to jj
 imap jj <Esc>

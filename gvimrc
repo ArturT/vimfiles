@@ -15,7 +15,14 @@ set guioptions-=m
   "" GUI is running or is about to start.
   "" Maximize gvim window.
   set lines=999 columns=999
-  colorscheme jellybeans
+
+  "colorscheme jellybeans
+  let g:solarized_termtrans = 1 " 0 when use 256 termscolors
+  let g:solarized_termcolors = 16
+  let g:solarized_contrast = 'high'
+  set background=dark
+  colorscheme solarized
+
   set cursorline                    " Highlight the current line
 "endif
 
