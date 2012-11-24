@@ -4,6 +4,7 @@
 
 	$ git clone https://github.com/ArturT/vimfiles.git ~/.vim
 	$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+	$ cd ~/.vim && touch vimrc.local && touch gvimrc.local
 	$ ln -s ~/.vim/vimrc ~/.vimrc
 	$ ln -s ~/.vim/gvimrc ~/.gvimrc
 	$ vim

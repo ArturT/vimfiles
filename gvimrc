@@ -28,3 +28,6 @@ set guioptions-=m
 
 " Overwrite font
 set gfn=Monaco:h13
+
+" Load local config
+source ~/.vim/gvimrc.local

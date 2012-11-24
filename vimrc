@@ -490,6 +490,4 @@ imap <c-h> <Left>
 imap <c-l> <Right>
 
 " Load local config
-if filereadable("~/.vim/vimrc.local")
-  source ~/.vim/vimrc.local
-endif
+source ~/.vim/vimrc.local
