@@ -7,6 +7,7 @@
 	$ cd ~/.vim && touch vimrc.local && touch gvimrc.local
 	$ ln -s ~/.vim/vimrc ~/.vimrc
 	$ ln -s ~/.vim/gvimrc ~/.gvimrc
+	$ ln -s ~/.vim/ackrc ~/.ackrc
 	$ vim
 	:BundleInstall
 
