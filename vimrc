@@ -140,6 +140,9 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
 "Bundle "nono/vim-handlebars"
 
 Bundle "bronson/vim-visual-star-search"
+
+" https://github.com/xolox/vim-session
+Bundle "https://github.com/xolox/vim-session.git"
 "----------------------------------------------------------
 
 " Leader key
