@@ -143,6 +143,9 @@ Bundle "bronson/vim-visual-star-search"
 
 " https://github.com/xolox/vim-session
 Bundle "https://github.com/xolox/vim-session.git"
+
+" vim-pasta
+Bundle 'sickill/vim-pasta'
 "----------------------------------------------------------
 
 " Leader key
