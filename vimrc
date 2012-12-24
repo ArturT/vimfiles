@@ -456,7 +456,6 @@ colorscheme solarized
 
 "map Esc to jj
 imap jj <Esc>
-imap jk <Esc>
 
 " Save when losing focus
 au FocusLost * :silent! wall
