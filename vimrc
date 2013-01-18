@@ -104,8 +104,6 @@ Bundle 'SuperTab'
 
 " '' to substitue word, or selection
 Bundle 'https://github.com/aklt/vim-substitute.git'
-let g:substitute_NoPromptMap = "''"
-let g:substitute_PromptMap = "'l"
 
 " To be aware where gem ctags are, and some other goodies
 Bundle 'https://github.com/tpope/vim-bundler.git'
