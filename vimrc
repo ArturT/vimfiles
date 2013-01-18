@@ -145,6 +145,9 @@ Bundle 'sickill/vim-pasta'
 " vim-less
 " https://github.com/groenewege/vim-less
 Bundle 'vim-less'
+
+" vim-yaml
+Bundle 'https://github.com/avakhov/vim-yaml'
 "----------------------------------------------------------
 
 " Leader key
