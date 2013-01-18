@@ -146,6 +146,10 @@ Bundle "https://github.com/xolox/vim-session.git"
 
 " vim-pasta
 Bundle 'sickill/vim-pasta'
+
+" vim-less
+" https://github.com/groenewege/vim-less
+Bundle 'vim-less'
 "----------------------------------------------------------
 
 " Leader key
