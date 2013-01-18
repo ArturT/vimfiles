@@ -130,9 +130,6 @@ Bundle "https://github.com/tpope/vim-eunuch.git"
 
 " Indentation guides
 Bundle 'https://github.com/nathanaelkane/vim-indent-guides'
-let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=black
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
 
 " Syntax for handlebars
 "Bundle "nono/vim-handlebars"
