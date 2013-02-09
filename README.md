@@ -23,15 +23,6 @@ Add below lines to ~/.bash_profile ([more info](http://apple.stackexchange.com/q
 
 # Other
 
-## Command-T Plugin
-Command-T requires a compiled component.
-
-You need to compile Command-T with Ruby v 1.8.7. Use RVM to switch between ruby versions. After you compiled the source you may switch back to your other ruby version.
-
-	cd ~/.vim/bundle/Command-T/ruby/command-t
-	ruby extconf.rb
-	make
-
 ## JSLint.vim Plugin
 To fix issue: `Vim(echoerr): could not invoke JSLint` install [nodejs](http://nodejs.org)
 
