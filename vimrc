@@ -494,8 +494,14 @@ imap <c-k> <Up>
 imap <c-h> <Left>
 imap <c-l> <Right>
 
+" Save file and run in ruby
 map <leader>e :w<CR>:!ruby %<CR>
+
+" Run specs for file
 map <leader>s :!rspec --color %<cr>
+
+" Ignore for CtrlP.vim
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip " MacOSX/Linux
 
 " Load local config
 source ~/.vim/vimrc.local
