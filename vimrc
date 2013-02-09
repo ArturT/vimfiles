@@ -500,8 +500,16 @@ map <leader>e :w<CR>:!ruby %<CR>
 " Run specs for file
 map <leader>s :!rspec --color %<cr>
 
+" vim-session
+let g:session_autoload='no'
+
 " Ignore for CtrlP.vim
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip " MacOSX/Linux
+
+" Jump to an open buffer if already opened.
+" e - jump when <cr> is pressed, but only to windows in the current tab.
+" t - jump when <c-t> is pressed, but only to windows in another tab.
+let g:ctrlp_switch_buffer='et'
 
 " Load local config
 source ~/.vim/vimrc.local
