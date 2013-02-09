@@ -126,7 +126,7 @@ Bundle "https://github.com/jgdavey/vim-blockle.git"
 Bundle "https://github.com/tpope/vim-eunuch.git"
 
 " Vim snippets
-Bundle "msanders/snipmate.vim"
+"Bundle "msanders/snipmate.vim"
 
 " Indentation guides
 Bundle 'https://github.com/nathanaelkane/vim-indent-guides'
