@@ -494,10 +494,6 @@ imap <c-k> <Up>
 imap <c-h> <Left>
 imap <c-l> <Right>
 
-" allow fast moving
-map <C-[> 4k
-map <C-]> 4j
-
 " Save file and run in ruby
 map <leader>e :w<CR>:!ruby %<CR>
 
