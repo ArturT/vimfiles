@@ -357,6 +357,10 @@ command! RTfactories :RTedit spec/factories.rb
 " Execute current buffer as ruby
 map <S-r> :w !ruby<CR>
 
+" Change default mapping for CtrlP.vim
+let ctrlp_map = '<c-s>'
+let g:ctrlp_map = '<c-s>'
+
 nmap <leader>gs :CtrlP spec/<cr>
 nmap <leader>gv :CtrlP app/views<cr>
 nmap <leader>gc :CtrlP app/controllers<cr>
