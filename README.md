@@ -25,6 +25,7 @@ Add below lines to ~/.bash_profile ([more info](http://apple.stackexchange.com/q
 
 Copy example file:
 
+	$ cp vimrc.local.example-ubuntu vimrc.local
 	$ cp gvimrc.local.example-ubuntu gvimrc.local
 
 

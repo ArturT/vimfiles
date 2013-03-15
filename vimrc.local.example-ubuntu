@@ -1,0 +1,5 @@
+" switch between tabs
+map <M-{> gT
+map <M-}> gt
+imap <M-{> <esc>gTi
+imap <M-}> <esc>gti
