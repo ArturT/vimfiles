@@ -21,6 +21,13 @@ Add below lines to ~/.bash_profile ([more info](http://apple.stackexchange.com/q
 	export EDITOR=vim
 
 
+## Ubuntu
+
+Copy example file:
+
+	$ cp gvimrc.local.example-ubuntu gvimrc.local
+
+
 # Other
 
 ## JSLint.vim Plugin
