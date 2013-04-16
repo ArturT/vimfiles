@@ -162,6 +162,10 @@ Bundle 'kien/rainbow_parentheses.vim'
 " https://github.com/Lokaltog/vim-powerline
 Bundle 'Lokaltog/vim-powerline'
 
+" repeat stuff done in vim-surround
+" https://github.com/tpope/vim-repeat
+Bundle 'tpope/vim-repeat'
+
 
 "----------------------------------------------------------
 
