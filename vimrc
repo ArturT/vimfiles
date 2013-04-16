@@ -166,6 +166,9 @@ Bundle 'Lokaltog/vim-powerline'
 " https://github.com/tpope/vim-repeat
 Bundle 'tpope/vim-repeat'
 
+" https://github.com/terryma/vim-multiple-cursors
+Bundle 'terryma/vim-multiple-cursors'
+
 
 "----------------------------------------------------------
 
