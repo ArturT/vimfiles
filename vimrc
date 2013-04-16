@@ -529,23 +529,24 @@ let g:ctrlp_switch_buffer='et'
 
 " Rainbow Parentheses
 let g:rbpt_colorpairs = [
-    \ ['darkgreen',   'RoyalBlue3'],
-    \ ['gray',        'RoyalBlue3'],
-    \ ['darkred',     'DarkOrchid3'],
+    \ ['brown',       'RoyalBlue3'],
+    \ ['Darkblue',    'SeaGreen3'],
+    \ ['darkgray',    'DarkOrchid3'],
+    \ ['darkgreen',   'firebrick3'],
+    \ ['darkcyan',    'RoyalBlue3'],
+    \ ['darkred',     'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
     \ ['brown',       'firebrick3'],
-    \ ['Darkblue',    'firebrick3'],
-    \ ['darkcyan',    'SeaGreen3'],
-    \ ['darkgreen',   'RoyalBlue3'],
     \ ['gray',        'RoyalBlue3'],
-    \ ['darkred',     'DarkOrchid3'],
+    \ ['black',       'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['brown',       'firebrick3'],
     \ ['Darkblue',    'firebrick3'],
-    \ ['darkcyan',    'SeaGreen3'],
     \ ['darkgreen',   'RoyalBlue3'],
-    \ ['gray',        'RoyalBlue3'],
+    \ ['darkcyan',    'SeaGreen3'],
+    \ ['darkred',     'DarkOrchid3'],
+    \ ['red',         'firebrick3'],
     \ ]
+
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 
