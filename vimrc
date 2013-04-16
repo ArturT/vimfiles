@@ -159,6 +159,9 @@ Bundle 'slim-template/vim-slim'
 " https://github.com/kien/rainbow_parentheses.vim
 Bundle 'kien/rainbow_parentheses.vim'
 
+" https://github.com/Lokaltog/vim-powerline
+Bundle 'Lokaltog/vim-powerline'
+
 
 "----------------------------------------------------------
 
