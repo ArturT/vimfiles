@@ -152,6 +152,14 @@ Bundle 'https://github.com/avakhov/vim-yaml'
 " https://github.com/derekwyatt/vim-scala
 Bundle 'derekwyatt/vim-scala'
 
+Bundle 'tpope/vim-haml'
+
+Bundle 'slim-template/vim-slim'
+
+" https://github.com/kien/rainbow_parentheses.vim
+Bundle 'kien/rainbow_parentheses.vim'
+
+
 "----------------------------------------------------------
 
 " Leader key
@@ -518,6 +526,33 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip " MacOSX/Linux
 " e - jump when <cr> is pressed, but only to windows in the current tab.
 " t - jump when <c-t> is pressed, but only to windows in another tab.
 let g:ctrlp_switch_buffer='et'
+
+" Rainbow Parentheses
+let g:rbpt_colorpairs = [
+    \ ['darkgreen',   'RoyalBlue3'],
+    \ ['gray',        'RoyalBlue3'],
+    \ ['darkred',     'DarkOrchid3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['brown',       'firebrick3'],
+    \ ['Darkblue',    'firebrick3'],
+    \ ['darkcyan',    'SeaGreen3'],
+    \ ['darkgreen',   'RoyalBlue3'],
+    \ ['gray',        'RoyalBlue3'],
+    \ ['darkred',     'DarkOrchid3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['brown',       'firebrick3'],
+    \ ['Darkblue',    'firebrick3'],
+    \ ['darkcyan',    'SeaGreen3'],
+    \ ['darkgreen',   'RoyalBlue3'],
+    \ ['gray',        'RoyalBlue3'],
+    \ ]
+let g:rbpt_max = 16
+let g:rbpt_loadcmd_toggle = 0
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 " Load local config
 source ~/.vim/vimrc.local
