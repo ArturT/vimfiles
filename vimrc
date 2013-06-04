@@ -565,5 +565,33 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+
+" Move current tab into the specified direction.
+" http://stackoverflow.com/a/7961618
+"
+" @param direction -1 for left, 1 for right.
+function! TabMove(direction)
+    " get number of tab pages.
+    let ntp=tabpagenr("$")
+    " move tab, if necessary.
+    if ntp > 1
+        " get number of current tab page.
+        let ctpn=tabpagenr()
+        " move left.
+        if a:direction < 0
+            let index=((ctpn-1+ntp-1)%ntp)
+        else
+            let index=(ctpn%ntp)
+        endif
+
+        " move tab page.
+        execute "tabmove ".index
+    endif
+endfunction
+
+map <F2> :call TabMove(-1)<CR>
+map <F3> :call TabMove(1)<CR>
+
+
 " Load local config
 source ~/.vim/vimrc.local
