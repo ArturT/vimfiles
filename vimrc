@@ -137,7 +137,8 @@ Bundle 'https://github.com/nathanaelkane/vim-indent-guides'
 Bundle "bronson/vim-visual-star-search"
 
 " https://github.com/xolox/vim-session
-Bundle "https://github.com/xolox/vim-session.git"
+Bundle "xolox/vim-session"
+Bundle "xolox/vim-misc"
 
 " vim-pasta
 Bundle 'sickill/vim-pasta'
@@ -527,6 +528,7 @@ map <leader>e :w<CR>:!ruby %<CR>
 map <leader>s :!rspec --color %<cr>
 
 " vim-session
+let g:session_autosave = 'no'
 let g:session_autoload='no'
 
 " Ignore for CtrlP.vim
