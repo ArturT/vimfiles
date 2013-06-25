@@ -170,6 +170,9 @@ Bundle 'tpope/vim-repeat'
 " https://github.com/terryma/vim-multiple-cursors
 Bundle 'terryma/vim-multiple-cursors'
 
+" https://github.com/Lokaltog/vim-easymotion
+Bundle 'Lokaltog/vim-easymotion'
+
 
 "----------------------------------------------------------
 
