@@ -3,3 +3,8 @@ map <M-{> gT
 map <M-}> gt
 imap <M-{> <esc>gTi
 imap <M-}> <esc>gti
+
+" colorscheme jellybeans
+let g:solarized_termtrans = 0 " 0 when use 256 termscolors
+let g:solarized_termcolors = 256
+colorscheme solarized
