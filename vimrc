@@ -125,8 +125,13 @@ Bundle "https://github.com/jgdavey/vim-blockle.git"
 " Add rename delete ...
 Bundle "https://github.com/tpope/vim-eunuch.git"
 
-" Vim snippets
-"Bundle "msanders/snipmate.vim"
+" https://github.com/garbas/vim-snipmate
+" SnipMate does not ship with any snippets
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+" Add snippets
+Bundle "honza/vim-snippets"
 
 " Indentation guides
 Bundle 'https://github.com/nathanaelkane/vim-indent-guides'
@@ -596,6 +601,11 @@ endfunction
 
 map <F2> :call TabMove(-1)<CR>
 map <F3> :call TabMove(1)<CR>
+
+
+" SnipMate
+:imap <C-J> <Plug>snipMateNextOrTrigger
+:smap <C-J> <Plug>snipMateNextOrTrigger
 
 
 " Load local config
