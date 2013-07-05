@@ -96,8 +96,8 @@ Bundle 'ZenCoding.vim'
 " VimWiki
 Bundle 'vimwiki'
 
-" SuperTab for autcompletion in insert mode
-Bundle 'SuperTab'
+" https://github.com/Valloric/YouCompleteMe
+Bundle 'Valloric/YouCompleteMe'
 
 " '' to substitue word, or selection
 Bundle 'https://github.com/aklt/vim-substitute.git'
@@ -604,8 +604,8 @@ map <F3> :call TabMove(1)<CR>
 
 
 " SnipMate
-:imap <C-J> <Plug>snipMateNextOrTrigger
-:smap <C-J> <Plug>snipMateNextOrTrigger
+imap ss <esc>a<Plug>snipMateNextOrTrigger
+smap ss <Plug>snipMateNextOrTrigger
 
 
 " Load local config

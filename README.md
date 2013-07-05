@@ -38,3 +38,8 @@ vimrc contains:
 
 	" Use Node.js for JavaScript interpretation
 	let $JS_CMD='node'"
+
+
+## YouCompleteMe
+
+You need to compile YCM before using it. [Read the docs!](https://github.com/Valloric/YouCompleteMe)
