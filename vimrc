@@ -608,8 +608,8 @@ map <F3> :call TabMove(1)<CR>
 
 
 " SnipMate
-imap ss <esc>a<Plug>snipMateNextOrTrigger
-smap ss <Plug>snipMateNextOrTrigger
+imap ** <esc>a<Plug>snipMateNextOrTrigger
+smap ** <Plug>snipMateNextOrTrigger
 
 
 " YouCompleteMe
