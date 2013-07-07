@@ -170,7 +170,13 @@ Bundle 'slim-template/vim-slim'
 Bundle 'kien/rainbow_parentheses.vim'
 
 " https://github.com/Lokaltog/vim-powerline
-Bundle 'Lokaltog/vim-powerline'
+" Deprecated
+"Bundle 'Lokaltog/vim-powerline'
+" not yet finished
+"Bundle 'Lokaltog/powerline'
+
+" https://github.com/bling/vim-airline
+Bundle 'bling/vim-airline'
 
 " repeat stuff done in vim-surround
 " https://github.com/tpope/vim-repeat
