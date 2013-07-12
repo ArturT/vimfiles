@@ -626,5 +626,9 @@ let g:ycm_seed_identifiers_with_syntax = 1
 let g:ycm_filetype_identifier_grouping = 0
 
 
+" Remove tailing white spaces
+nmap <silent> <leader>rw :%s/\s\+$//<cr>``
+
+
 " Load local config
 source ~/.vim/vimrc.local
