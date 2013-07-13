@@ -630,5 +630,11 @@ let g:ycm_filetype_identifier_grouping = 0
 nmap <silent> <leader>rw :%s/\s\+$//<cr>``
 
 
+" Go previous tab
+nmap gj gT
+" Go next tab
+nmap gk gt
+
+
 " Load local config
 source ~/.vim/vimrc.local
