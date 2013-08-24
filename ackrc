@@ -2,7 +2,13 @@
 --ignore-dir=coverage
 --ignore-dir=log
 --ignore-dir=vendor
---type-add=ruby=.haml,.rake
---type-add=html=.html.erb,.html.haml,.mustache,.wiki
---type-add=css=.sass,.scss,.less
+--ignore-dir=doc
 
+--ignore-file=is:benchmark.html
+--ignore-file=is:tags
+--ignore-file=ext:tags
+
+--type-add=ruby=.haml,.slim,.rake
+--type-add=html=.html.erb,.html.haml,html.slim,.mustache,.wiki
+--type-add=css=.sass,.scss,.less
+--type-add=js=.js.erb,.coffee,.coffee.erb
