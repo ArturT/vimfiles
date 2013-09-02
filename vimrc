@@ -636,5 +636,9 @@ nmap gj gT
 nmap gk gt
 
 
+" https://github.com/nesquena/rabl/wiki/Syntax-Support
+au BufRead,BufNewFile *.rabl setf ruby
+
+
 " Load local config
 source ~/.vim/vimrc.local
