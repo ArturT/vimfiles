@@ -143,6 +143,9 @@ Bundle 'https://github.com/nathanaelkane/vim-indent-guides'
 " Syntax for handlebars
 "Bundle "nono/vim-handlebars"
 
+" Syntax for jade
+Bundle "digitaltoad/vim-jade"
+
 Bundle "bronson/vim-visual-star-search"
 
 " https://github.com/xolox/vim-session
