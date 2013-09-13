@@ -191,6 +191,8 @@ Bundle 'terryma/vim-multiple-cursors'
 " https://github.com/Lokaltog/vim-easymotion
 Bundle 'Lokaltog/vim-easymotion'
 
+" https://github.com/othree/javascript-libraries-syntax.vim
+Bundle 'othree/javascript-libraries-syntax.vim'
 
 "----------------------------------------------------------
 
