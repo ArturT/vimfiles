@@ -643,5 +643,9 @@ nmap gk gt
 au BufRead,BufNewFile *.rabl setf ruby
 
 
+" hide all warnings for any ng-* attributes
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+
+
 " Load local config
 source ~/.vim/vimrc.local
