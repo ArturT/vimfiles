@@ -194,6 +194,9 @@ Bundle 'Lokaltog/vim-easymotion'
 " https://github.com/othree/javascript-libraries-syntax.vim
 Bundle 'othree/javascript-libraries-syntax.vim'
 
+" https://github.com/wavded/vim-stylus
+Bundle 'wavded/vim-stylus'
+
 "----------------------------------------------------------
 
 " Leader key
