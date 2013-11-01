@@ -197,6 +197,10 @@ Bundle 'othree/javascript-libraries-syntax.vim'
 " https://github.com/wavded/vim-stylus
 Bundle 'wavded/vim-stylus'
 
+" https://github.com/kana/vim-arpeggio
+" http://www.vim.org/scripts/script.php?script_id=2425
+Bundle 'kana/vim-arpeggio'
+
 "----------------------------------------------------------
 
 " Leader key
