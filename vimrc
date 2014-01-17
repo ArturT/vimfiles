@@ -101,11 +101,11 @@ Bundle 'ZenCoding.vim'
 Bundle 'vimwiki'
 
 " https://github.com/Valloric/YouCompleteMe
-"Bundle 'Valloric/YouCompleteMe'
+Bundle 'Valloric/YouCompleteMe'
 
 " https://github.com/szw/YouCompleteMe
 " This fork supports ycm_filetype_identifier_grouping
-Bundle 'szw/YouCompleteMe'
+"Bundle 'szw/YouCompleteMe'
 
 " '' to substitue word, or selection
 Bundle 'https://github.com/aklt/vim-substitute.git'
