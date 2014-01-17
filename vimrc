@@ -39,6 +39,10 @@ Bundle 'The-NERD-tree'
 " ack - use ack to search through files
 Bundle 'ack.vim'
 
+" https://github.com/rking/ag.vim
+" Required: brew install ag
+Bundle 'rking/ag.vim'
+
 " delimitMate - autoclosing of (", etc. that does not clash with endwise
 Bundle 'delimitMate.vim'
 
