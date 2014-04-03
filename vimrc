@@ -205,6 +205,9 @@ Bundle 'wavded/vim-stylus'
 " http://www.vim.org/scripts/script.php?script_id=2425
 Bundle 'kana/vim-arpeggio'
 
+" https://github.com/kshenoy/vim-signature
+Bundle 'kshenoy/vim-signature'
+
 "----------------------------------------------------------
 
 " Leader key
