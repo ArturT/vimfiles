@@ -277,10 +277,10 @@ set autoread                      " automatically read changes from disk
 set diffopt+=iwhite               " ignore whitespace in vimdiff
 
 " Folding settings
-set foldmethod=indent             " indent based on syntax
-set foldnestmax=3                 " deepest fold is 3 levels
-set foldlevel=3
-set nofoldenable                  " dont fold by default
+" set foldmethod=indent             " indent based on syntax
+" set foldnestmax=3                 " deepest fold is 3 levels
+" set foldlevel=3
+" set nofoldenable                  " dont fold by default
 
 "set matchpairs+=<:>               " add < and > to the chars thac can be navigated with %
 
