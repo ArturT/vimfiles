@@ -482,6 +482,7 @@ augroup abbrevs
   " Ruby
   au Filetype ruby ia log/ Rails.logger.debug
   au Filetype ruby ia pry/ require 'pry'; binding.pry;
+  au Filetype ruby ia pryd/ require 'pry-debugger'; binding.pry;
   au Filetype ruby ia debug/ require 'ruby-debug'; debugger;
 
   au Filetype ruby ia desc/ describe "" do<CR><ESC>?""<ESC>a
