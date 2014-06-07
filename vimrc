@@ -208,6 +208,9 @@ Bundle 'kana/vim-arpeggio'
 " https://github.com/kshenoy/vim-signature
 Bundle 'kshenoy/vim-signature'
 
+" https://github.com/Peeja/vim-cdo
+Bundle 'Peeja/vim-cdo'
+
 "----------------------------------------------------------
 
 " Leader key
