@@ -211,6 +211,9 @@ Bundle 'kshenoy/vim-signature'
 " https://github.com/Peeja/vim-cdo
 Bundle 'Peeja/vim-cdo'
 
+" https://github.com/ekalinin/Dockerfile.vim
+Bundle 'ekalinin/Dockerfile.vim'
+
 "----------------------------------------------------------
 
 " Leader key
