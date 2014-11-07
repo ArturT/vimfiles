@@ -214,6 +214,9 @@ Bundle 'Peeja/vim-cdo'
 " https://github.com/ekalinin/Dockerfile.vim
 Bundle 'ekalinin/Dockerfile.vim'
 
+" https://github.com/dart-lang/dart-vim-plugin
+Bundle 'dart-lang/dart-vim-plugin'
+
 "----------------------------------------------------------
 
 " Leader key
