@@ -217,6 +217,10 @@ Bundle 'ekalinin/Dockerfile.vim'
 " https://github.com/dart-lang/dart-vim-plugin
 Bundle 'dart-lang/dart-vim-plugin'
 
+" Comma and semi-colon insertion bliss for vim.
+" https://github.com/lfilho/cosco.vim
+Bundle 'lfilho/cosco.vim'
+
 "----------------------------------------------------------
 
 " Leader key
@@ -671,6 +675,11 @@ au BufRead,BufNewFile *.rabl setf ruby
 
 " hide all warnings for any ng-* attributes
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+
+
+" cosco.vim commands
+autocmd FileType javascript,css,YOUR_LANG noremap <silent> <Leader>; :call cosco#commaOrSemiColon()<CR>
+autocmd FileType javascript,css,YOUR_LANG inoremap <silent> <Leader>; <c-o>:call cosco#commaOrSemiColon()<CR>
 
 
 " Load local config
