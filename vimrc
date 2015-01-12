@@ -221,6 +221,10 @@ Bundle 'dart-lang/dart-vim-plugin'
 " https://github.com/lfilho/cosco.vim
 Bundle 'lfilho/cosco.vim'
 
+" Add additional support for Ansible in VIM
+" https://github.com/chase/vim-ansible-yaml
+Bundle 'chase/vim-ansible-yaml'
+
 "----------------------------------------------------------
 
 " Leader key
