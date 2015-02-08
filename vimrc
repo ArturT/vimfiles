@@ -225,6 +225,9 @@ Bundle 'lfilho/cosco.vim'
 " https://github.com/chase/vim-ansible-yaml
 Bundle 'chase/vim-ansible-yaml'
 
+" https://github.com/ryanss/vim-hackernews
+Bundle 'ryanss/vim-hackernews'
+
 "----------------------------------------------------------
 
 " Leader key
