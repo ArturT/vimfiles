@@ -60,9 +60,9 @@ Bundle 'Syntastic'
 Bundle 'endwise.vim'
 
 " vim-markdown - syntax highlighting for markdown
-Bundle 'Markdown'
+Bundle 'tpope/vim-markdown'
 
-Bundle 'swaroopch/vim-markdown-preview'
+Bundle 'jtratner/vim-flavored-markdown'
 
 " vim-matchit - better pair matching for the % command
 Bundle 'matchit.zip'
@@ -315,7 +315,13 @@ nnoremap j gj
 nnoremap k gk
 
 " map .md files fo markdown
-au BufNewFile,BufRead *.md set filetype=markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" vim-flavored-markdown
+augroup markdown
+    au!
+    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
 
 " automatically strip trailing whitespace for some file types
 autocmd FileType c,cpp,java,php,javascript,html,ruby autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
