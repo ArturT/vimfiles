@@ -731,7 +731,7 @@ endif
 
 
 " solars/github-vim
-map <leader>gm <Plug>GithubOpen
+map <leader>go <Plug>GithubOpen
 map <leader>gc <Plug>GithubComment
 
 
