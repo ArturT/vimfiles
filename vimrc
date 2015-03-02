@@ -228,6 +228,9 @@ Bundle 'chase/vim-ansible-yaml'
 " https://github.com/ryanss/vim-hackernews
 Bundle 'ryanss/vim-hackernews'
 
+" https://github.com/solars/github-vim
+Bundle 'solars/github-vim'
+
 "----------------------------------------------------------
 
 " Leader key
@@ -725,6 +728,11 @@ if has("gui_gtk") || has("gui_gtk2") || has("gui_gnome") || has("unix")
   " directory name (/something/src)
   nnoremap <leader>ch :let @+=expand("%:p:h")<CR>
 endif
+
+
+" solars/github-vim
+map <leader>gm <Plug>GithubOpen
+map <leader>gc <Plug>GithubComment
 
 
 " Load local config
