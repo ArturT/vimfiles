@@ -731,8 +731,8 @@ endif
 
 
 " solars/github-vim
-map <leader>go <Plug>GithubOpen
-map <leader>gc <Plug>GithubComment
+map <leader>gO <Plug>GithubOpen
+map <leader>gC <Plug>GithubComment
 
 
 " Load local config
