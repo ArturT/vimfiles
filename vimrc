@@ -735,5 +735,9 @@ map <leader>gO <Plug>GithubOpen
 map <leader>gC <Plug>GithubComment
 
 
+" use yaml format for .raml files
+autocmd! BufNewFile,BufRead *.raml set filetype=yaml
+
+
 " Load local config
 source ~/.vim/vimrc.local
