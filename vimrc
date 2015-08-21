@@ -15,7 +15,7 @@ call vundle#rc()
 " PLUGINS
 "----------------------------------------------------------
 
-Bundle 'gmarik/vundle'
+Bundle 'VundleVim/Vundle.vim'
 
 Bundle 'L9'
 " succesor of Command-T pure fuzzy finding in vim-script
