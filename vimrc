@@ -8,7 +8,7 @@ set nocompatible                  " Must come first because it changes other opt
 filetype off                      " required!
 
 " setup Vundle
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 "----------------------------------------------------------
