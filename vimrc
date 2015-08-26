@@ -229,8 +229,8 @@ Bundle 'chase/vim-ansible-yaml'
 Bundle 'ryanss/vim-hackernews'
 
 " https://github.com/solars/github-vim
-"Bundle 'solars/github-vim'
-Bundle 'ArturT/github-vim'
+Bundle 'solars/github-vim'
+"Bundle 'ArturT/github-vim'
 
 "----------------------------------------------------------
 
