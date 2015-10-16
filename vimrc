@@ -744,6 +744,7 @@ autocmd! BufNewFile,BufRead *.raml set filetype=yaml
 autocmd BufNewFile,BufRead Berksfile set filetype=ruby
 autocmd BufNewFile,BufRead Berksfile.lock set filetype=ruby
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
+autocmd BufNewFile,BufRead *.cap set filetype=ruby
 
 
 " Load local config
