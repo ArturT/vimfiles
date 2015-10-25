@@ -232,6 +232,9 @@ Bundle 'ryanss/vim-hackernews'
 Bundle 'solars/github-vim'
 "Bundle 'ArturT/github-vim'
 
+" https://github.com/elixir-lang/vim-elixir
+Bundle 'elixir-lang/vim-elixir'
+
 "----------------------------------------------------------
 
 " Leader key
