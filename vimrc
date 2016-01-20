@@ -94,8 +94,8 @@ Bundle 'textobj-rubyblock'
 " vim-zoomwin - when maximizing the window it is possible to un-maximize it
 Bundle 'ZoomWin'
 
-" zencoding-vim - plugin for expanding css-like syntax to html
-Bundle 'ZenCoding.vim'
+" https://github.com/mattn/emmet-vim
+Bundle 'mattn/emmet-vim'
 
 " VimWiki
 Bundle 'vimwiki'
@@ -359,10 +359,6 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_disabled_filetypes = ['eruby']
-
-" zencoding-vim
-let g:user_zen_expandabbr_key = '<c-e>'
-let g:use_zen_complete_tag = 1
 
 "map <silent> <F2> <ESC>:NERDTreeToggle<CR>
 
