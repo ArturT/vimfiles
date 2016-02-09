@@ -21,9 +21,6 @@ Bundle 'L9'
 " succesor of Command-T pure fuzzy finding in vim-script
 Bundle 'vim-scripts/ctrlp.vim'
 
-" javascript indentation in vim sucks
-Bundle 'Better-Javascript-Indentation'
-
 " JSON.vim - JSON syntax highlighting
 Bundle 'JSON.vim'
 
@@ -234,6 +231,9 @@ Bundle 'solars/github-vim'
 
 " https://github.com/elixir-lang/vim-elixir
 Bundle 'elixir-lang/vim-elixir'
+
+" https://github.com/isRuslan/vim-es6
+Bundle 'isRuslan/vim-es6'
 
 "----------------------------------------------------------
 
