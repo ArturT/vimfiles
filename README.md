@@ -31,15 +31,6 @@ Copy example file:
 
 # Other
 
-## JSLint.vim Plugin
-To fix issue: `Vim(echoerr): could not invoke JSLint` install [nodejs](http://nodejs.org)
-
-vimrc contains:
-
-    " Use Node.js for JavaScript interpretation
-    let $JS_CMD='node'"
-
-
 ## YouCompleteMe
 
 You need to compile YCM before using it. [Read the docs!](https://github.com/Valloric/YouCompleteMe)
@@ -47,3 +38,11 @@ You need to compile YCM before using it. [Read the docs!](https://github.com/Val
 ## ag.vim
 
     $ brew install ag
+
+## Plugin https://github.com/scrooloose/syntastic
+
+Install eslint: https://github.com/eslint/eslint
+
+`npm install -g eslint`
+
+Please ensure you have for instance [nvm](https://github.com/creationix/nvm) with current node version installed.

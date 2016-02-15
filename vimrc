@@ -47,9 +47,6 @@ Bundle 'delimitMate.vim'
 " Gsearch Greplace
 Bundle 'greplace.vim'
 
-" jslint .js files automatically
-Bundle 'jslint.vim'
-
 " syntastic - plugin for displaying syntax errors
 Bundle 'Syntastic'
 
@@ -357,8 +354,14 @@ let g:NERDTreeMapOpenVSplit = "v"
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 let g:syntastic_enable_signs=1
 let g:syntastic_disabled_filetypes = ['eruby']
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_args = "--config ~/.vim/.eslintrc.json"
 
 "map <silent> <F2> <ESC>:NERDTreeToggle<CR>
 
@@ -578,9 +581,6 @@ imap <c-l> <space>=><space>
 
 imap <c-b> <%=<space><space>%><Esc>hhi
 imap <c-g> <%<space><space>%><Esc>hhi
-
-" Use Node.js for JavaScript interpretation
-let $JS_CMD='node'
 
 " allow moving with j/k in insert mode
 imap <c-j> <Down>
