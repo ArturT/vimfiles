@@ -6,7 +6,6 @@
 
 set nocompatible                  " Must come first because it changes other options.
 filetype off                      " required!
-set relativenumber
 
 " setup Vundle
 set rtp+=~/.vim/bundle/Vundle.vim/
