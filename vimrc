@@ -229,6 +229,9 @@ Bundle 'solars/github-vim'
 " https://github.com/elixir-lang/vim-elixir
 Bundle 'elixir-lang/vim-elixir'
 
+" https://github.com/slashmili/alchemist.vim
+Bundle 'slashmili/alchemist.vim'
+
 " https://github.com/isRuslan/vim-es6
 Bundle 'isRuslan/vim-es6'
 
