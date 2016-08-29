@@ -491,7 +491,7 @@ map [t :tprev <CR>
 let g:CommandTMaxHeight = 15
 
 if exists('+colorcolumn')
-  set colorcolumn=80
+  set colorcolumn=120
   hi ColorColumn guibg=#2d2d2d
 else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
