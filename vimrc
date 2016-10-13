@@ -608,6 +608,8 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip " MacOSX/Linux
 " e - jump when <cr> is pressed, but only to windows in the current tab.
 " t - jump when <c-t> is pressed, but only to windows in another tab.
 let g:ctrlp_switch_buffer='et'
+let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+let g:ctrlp_use_caching = 1
 
 " Rainbow Parentheses
 let g:rbpt_colorpairs = [

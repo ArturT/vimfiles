@@ -1,0 +1,14 @@
+/node_modules/**/*
+/_build/**/*
+/deps/**/*
+/priv/static/css
+/priv/static/js
+.DS_Store
+*.orig
+*.swo
+*.swp
+.git/**/*
+tmp
+/.git/**/*
+.git
+public/uploads
