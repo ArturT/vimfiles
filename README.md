@@ -3,7 +3,7 @@
 ## Basic installation
 
     $ git clone git@github.com:ArturT/vimfiles.git ~/.vim
-    $ git clone git@github.com:gmarik/vundle.git ~/.vim/bundle/vundle
+    $ git clone git@github.com:gmarik/vundle.git ~/.vim/bundle/Vundle.vim
     $ cd ~/.vim && touch vimrc.local && touch gvimrc.local
     $ ln -s ~/.vim/ackrc ~/.ackrc
     $ ln -s ~/.vim/vimrc ~/.vimrc
