@@ -15,13 +15,36 @@
 
 ## Mac OS X
 
+### MacVim
+
 Install [MacVim](http://code.google.com/p/macvim/)
 
-Add below lines to ~/.bash_profile ([more info](http://apple.stackexchange.com/questions/14299/replaced-usr-bin-vim-now-i-get-error-messages/14317#14317))
+Add below lines to `~/.bash_profile` ([more info](http://apple.stackexchange.com/questions/14299/replaced-usr-bin-vim-now-i-get-error-messages/14317#14317))
 
     alias vim='mvim -v'
     export EDITOR=vim
 
+### NeoVim
+
+How to install [NeoVim](https://github.com/neovim/neovim) and dependencies:
+
+    $ brew update
+    $ brew install neovim/neovim/neovim
+
+    $ ln -s ~/.vim ~/.config/nvim
+    $ ln -s ~/.vimrc ~/.config/nvim/init.vim
+
+    $ brew install python3
+    $ pip3 install --upgrade pip setuptools wheel
+    $ brew linkapps python3
+    $ pip3 install neovim
+
+    $ gem install neovim
+
+Add below lines to `~/.bash_profile`:
+
+    alias vim='nvim'
+    export EDITOR=vim
 
 ## Ubuntu
 
@@ -29,7 +52,6 @@ Copy example file:
 
     $ cp vimrc.local.example-ubuntu vimrc.local
     $ cp gvimrc.local.example-ubuntu gvimrc.local
-
 
 # Other
 
