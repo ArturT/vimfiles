@@ -65,7 +65,7 @@ You need to compile YCM before using it. [Read the docs!](https://github.com/Val
 
 ## ctags
 
-You can use `:Rtags` to generate tags and then `^[` to find method definition and `^o` to go back.
+You can use `:Rtags` to generate tags and then `^]` to find method definition and `^o` to go back.
 
     $ brew install ctags
 
