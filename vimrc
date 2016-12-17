@@ -28,10 +28,10 @@ Bundle 'JSON.vim'
 Bundle 'LustyJuggler'
 
 " NerdCommenter - comment blocks of code
-Bundle 'The-NERD-Commenter'
+Bundle 'scrooloose/nerdcommenter'
 
 " NerdTree - displays a neat file explorer window
-Bundle 'The-NERD-tree'
+Bundle 'scrooloose/nerdtree'
 
 " ack - use ack to search through files
 Bundle 'ack.vim'
