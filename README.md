@@ -63,6 +63,12 @@ You need to compile YCM before using it. [Read the docs!](https://github.com/Val
 
     $ brew install ag
 
+## ctags
+
+You can use `:Rtags` to generate tags and then `^[` to find method definition and `^o` to go back.
+
+    $ brew install ctags
+
 ## Plugin https://github.com/scrooloose/syntastic
 
 Install eslint: https://github.com/eslint/eslint
