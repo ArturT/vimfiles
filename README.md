@@ -5,6 +5,7 @@
     $ git clone git@github.com:ArturT/vimfiles.git ~/.vim
     $ git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     $ cd ~/.vim && touch vimrc.local && touch gvimrc.local
+    $ ln -s ~/.vim/.agignore ~/.agignore
     $ ln -s ~/.vim/ackrc ~/.ackrc
     $ ln -s ~/.vim/vimrc ~/.vimrc
     # optional for gvim
@@ -62,6 +63,10 @@ You need to compile YCM before using it. [Read the docs!](https://github.com/Val
 ## ag.vim
 
     $ brew install ag
+
+## ack
+
+    $ brew install ack
 
 ## ctags
 
