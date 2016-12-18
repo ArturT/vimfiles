@@ -173,8 +173,9 @@ Bundle 'kien/rainbow_parentheses.vim'
 " not yet finished
 "Bundle 'Lokaltog/powerline'
 
-" https://github.com/bling/vim-airline
-Bundle 'bling/vim-airline'
+" https://github.com/vim-airline/vim-airline
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 
 " repeat stuff done in vim-surround
 " https://github.com/tpope/vim-repeat
@@ -550,6 +551,10 @@ map <leader>jf  <Esc>:%!python -m json.tool<CR>
 "let g:solarized_contrast = 'high'
 set background=light
 colorscheme solarized
+
+" vim-airline/vim-airline-themes
+let g:airline_theme='solarized'
+
 
 "map Esc to jj
 imap jj <Esc>
