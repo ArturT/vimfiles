@@ -544,10 +544,11 @@ map <down>  <C-W>-
 map <leader>jf  <Esc>:%!python -m json.tool<CR>
 
 "colorscheme jellybeans
-let g:solarized_termtrans = 1 " 0 when use 256 termscolors
-let g:solarized_termcolors = 16
-let g:solarized_contrast = 'high'
-set background=dark
+" https://github.com/altercation/vim-colors-solarized
+"let g:solarized_termtrans = 1 " 0 when use 256 termscolors
+"let g:solarized_termcolors = 16
+"let g:solarized_contrast = 'high'
+set background=light
 colorscheme solarized
 
 "map Esc to jj
