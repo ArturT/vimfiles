@@ -3,3 +3,4 @@ vimrc.local
 gvimrc.local
 .DS_Store
 init.vim
+.netrwhist
