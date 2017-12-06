@@ -235,6 +235,9 @@ Bundle 'slashmili/alchemist.vim'
 " https://github.com/isRuslan/vim-es6
 Bundle 'isRuslan/vim-es6'
 
+" https://github.com/leafgarland/typescript-vim
+Bundle 'leafgarland/typescript-vim'
+
 "----------------------------------------------------------
 
 " Leader key
