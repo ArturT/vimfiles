@@ -155,7 +155,7 @@ Bundle 'sickill/vim-pasta'
 Bundle 'vim-less'
 
 " vim-yaml
-Bundle 'https://github.com/avakhov/vim-yaml'
+Bundle 'stephpy/vim-yaml'
 
 " https://github.com/derekwyatt/vim-scala
 Bundle 'derekwyatt/vim-scala'
