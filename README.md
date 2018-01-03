@@ -30,7 +30,7 @@ Add below lines to `~/.bash_profile` ([more info](http://apple.stackexchange.com
 How to install [NeoVim](https://github.com/neovim/neovim) and dependencies:
 
     $ brew update
-    $ brew install neovim/neovim/neovim
+    $ brew install neovim
 
     $ mkdir -p ~/.config
     $ ln -s ~/.vim ~/.config/nvim
