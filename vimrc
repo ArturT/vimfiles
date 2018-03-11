@@ -217,8 +217,8 @@ Bundle 'lfilho/cosco.vim'
 " https://github.com/chase/vim-ansible-yaml
 Bundle 'chase/vim-ansible-yaml'
 
-" https://github.com/ryanss/vim-hackernews
-Bundle 'ryanss/vim-hackernews'
+" https://github.com/dansomething/vim-hackernews
+Bundle 'dansomething/vim-hackernews'
 
 " https://github.com/solars/github-vim
 Bundle 'solars/github-vim'
