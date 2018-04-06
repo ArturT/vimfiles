@@ -770,6 +770,10 @@ au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 " To disable Python 3 support:
 "let g:loaded_python3_provider = 1
 
+" warn about the fact that some of your open buffers were changed outside of neovim
+" https://github.com/qvacua/vimr/issues/242#issuecomment-318549413
+au FocusGained * checktime
+set noautoread
 
 " Load local config
 source ~/.vim/vimrc.local
