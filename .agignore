@@ -1,5 +1,5 @@
 node_modules
-app/assets/javascripts/generated/
+public/bundles/javascripts/
 /_build/**/*
 /deps/**/*
 /priv/static/css
