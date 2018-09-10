@@ -275,7 +275,7 @@ set virtualedit=block             " allow the cursor to go into invalid places o
 
 " Display tabs and trailing spaces
 set list
-set listchars=tab:»\ ,trail:·,nbsp:·
+"set listchars=tab:»\ ,trail:·,nbsp:·
 
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
