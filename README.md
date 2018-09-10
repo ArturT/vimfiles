@@ -48,6 +48,14 @@ Add below lines to `~/.bash_profile`:
     alias vim='nvim'
     export EDITOR=vim
 
+#### How to upgrade NeoVim?
+
+    $ brew upgrade neovim
+
+If you see error `YouCompleteMe unavailable: requires Vim compiled with Python 2.x support` then:
+
+    $ pip3 install neovim
+
 ## Ubuntu
 
 Copy example file:
