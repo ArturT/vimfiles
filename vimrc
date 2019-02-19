@@ -711,16 +711,16 @@ autocmd FileType javascript,css,YOUR_LANG inoremap <silent> <Leader>; <c-o>:call
 " http://stackoverflow.com/a/17096082/905697
 if has("mac") || has("gui_macvim") || has("gui_mac")
   " relative path  (src/foo.txt)
-  nnoremap <leader>cf :let @*=expand("%")<CR>
+  nnoremap <leader>cf :let @+=expand("%")<CR>
 
   " absolute path  (/something/src/foo.txt)
-  nnoremap <leader>cF :let @*=expand("%:p")<CR>
+  nnoremap <leader>cF :let @+=expand("%:p")<CR>
 
   " filename       (foo.txt)
-  nnoremap <leader>ct :let @*=expand("%:t")<CR>
+  nnoremap <leader>ct :let @+=expand("%:t")<CR>
 
   " directory name (/something/src)
-  nnoremap <leader>ch :let @*=expand("%:p:h")<CR>
+  nnoremap <leader>ch :let @+=expand("%:p:h")<CR>
 endif
 
 " copy current file name (relative/absolute) to system clipboard (Linux version)
