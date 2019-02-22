@@ -40,6 +40,10 @@ How to install [NeoVim](https://github.com/neovim/neovim) and dependencies:
     $ pip3 install --upgrade pip setuptools wheel
     $ pip3 install neovim
 
+    $ brew install python@2
+    $ pip2 install pynvim
+    $ pip install pynvim
+
     $ gem install neovim
 
 Add below lines to `~/.bash_profile`:
