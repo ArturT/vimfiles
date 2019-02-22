@@ -38,7 +38,6 @@ How to install [NeoVim](https://github.com/neovim/neovim) and dependencies:
 
     $ brew install python3
     $ pip3 install --upgrade pip setuptools wheel
-    $ brew linkapps python3
     $ pip3 install neovim
 
     $ gem install neovim
