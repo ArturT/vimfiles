@@ -72,6 +72,12 @@ Copy example file:
 
 You need to compile YCM before using it. [Read the docs!](https://github.com/Valloric/YouCompleteMe)
 
+```
+brew install python
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py
+```
+
 ## ag.vim
 
     $ brew install ag
