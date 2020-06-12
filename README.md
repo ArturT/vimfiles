@@ -75,7 +75,7 @@ You need to compile YCM before using it. [Read the docs!](https://github.com/Val
 ```
 brew install python
 cd ~/.vim/bundle/YouCompleteMe
-python3 install.py
+python3 install.py --system-libclang --clang-completer
 ```
 
 ## ag.vim
