@@ -236,6 +236,9 @@ Bundle 'isRuslan/vim-es6'
 " https://github.com/leafgarland/typescript-vim
 Bundle 'leafgarland/typescript-vim'
 
+" https://github.com/othree/html5.vim
+Bundle 'othree/html5.vim'
+
 "----------------------------------------------------------
 
 " Leader key
