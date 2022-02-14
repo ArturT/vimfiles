@@ -797,5 +797,8 @@ au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 au FocusGained * checktime
 set noautoread
 
+" use new parser for snipmate
+let g:snipMate = { 'snippet_version' : 1 }
+
 " Load local config
 source ~/.vim/vimrc.local
