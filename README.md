@@ -1,5 +1,10 @@
 # Install
 
+## Before installation
+
+There might be a file `~/.vim/.netrwhist`. Please backup it and after you clone the repo then put the file back to the `~/.vim` directory.
+The file is ignored.
+
 ## Basic installation
 
     $ git clone git@github.com:ArturT/vimfiles.git ~/.vim
