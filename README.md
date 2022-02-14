@@ -98,9 +98,13 @@ $ cp gvimrc.local.example-ubuntu gvimrc.local
 You need to compile YCM before using it. [Read the docs!](https://github.com/Valloric/YouCompleteMe)
 
 ```
-brew install python
-cd ~/.vim/bundle/YouCompleteMe
-python3 install.py --system-libclang --clang-completer
+# it might be already installed
+$ brew install python3
+
+$ brew install cmake
+
+$ cd ~/.vim/bundle/YouCompleteMe
+$ python3 install.py
 ```
 
 ## ag.vim
