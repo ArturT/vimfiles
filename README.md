@@ -52,8 +52,10 @@ $ mkdir -p ~/.config
 $ ln -s ~/.vim ~/.config/nvim
 $ ln -s ~/.vimrc ~/.config/nvim/init.vim
 
+# it might be already installed
 $ brew install python3
 $ pip3 install --upgrade pip setuptools wheel
+# just install neovim
 $ pip3 install neovim
 
 $ brew install python@2
