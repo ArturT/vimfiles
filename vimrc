@@ -110,42 +110,42 @@ Plugin 'https://github.com/kchmck/vim-coffee-script'
 " Tabular
 Plugin 'https://github.com/godlygeek/tabular'
 
-Plugin "python.vim"
+Plugin 'python.vim'
 
-Plugin "pyflakes"
+Plugin 'pyflakes'
 
 " Vitality restores the FocusLost and FocusGained autocommand functionality.
 " Now Vim can save when iTerm 2 loses focus, even if it's inside tmux!
-Plugin "sjl/vitality.vim"
+Plugin 'sjl/vitality.vim'
 
 " toggle between ruby blocks <leader>b
-Plugin "https://github.com/jgdavey/vim-blockle.git"
+Plugin 'https://github.com/jgdavey/vim-blockle.git'
 
 " Add rename delete ...
-Plugin "https://github.com/tpope/vim-eunuch.git"
+Plugin 'https://github.com/tpope/vim-eunuch.git'
 
 " https://github.com/garbas/vim-snipmate
 " SnipMate does not ship with any snippets
-Plugin "MarcWeber/vim-addon-mw-utils"
-Plugin "tomtom/tlib_vim"
-Plugin "garbas/vim-snipmate"
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 " Add snippets
-Plugin "honza/vim-snippets"
+Plugin 'honza/vim-snippets'
 
 " Indentation guides
 Plugin 'https://github.com/nathanaelkane/vim-indent-guides'
 
 " Syntax for handlebars
-"Plugin "nono/vim-handlebars"
+"Plugin 'nono/vim-handlebars'
 
 " Syntax for jade
-Plugin "digitaltoad/vim-jade"
+Plugin 'digitaltoad/vim-jade'
 
-Plugin "bronson/vim-visual-star-search"
+Plugin 'bronson/vim-visual-star-search'
 
 " https://github.com/xolox/vim-session
-Plugin "xolox/vim-session"
-Plugin "xolox/vim-misc"
+Plugin 'xolox/vim-session'
+Plugin 'xolox/vim-misc'
 
 " vim-pasta
 Plugin 'sickill/vim-pasta'
@@ -240,9 +240,8 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'othree/html5.vim'
 
 " https://github.com/briancollins/vim-jst
-Plugin "briancollins/vim-jst"
+Plugin 'briancollins/vim-jst'
 
-"----------------------------------------------------------
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -258,6 +257,10 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+
+"----------------------------------------------------------
+
 
 " Leader key
 let mapleader=","
