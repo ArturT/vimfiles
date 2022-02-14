@@ -21,9 +21,19 @@ $ ln -s ~/.vim/vimrc ~/.vimrc
 # optional for gvim (Ubuntu)
 $ cd ~/.vim && touch gvimrc.local
 $ ln -s ~/.vim/gvimrc ~/.gvimrc
+```
 
+For the first time installation, please comment out in `~/.bash_profile`:
+
+```
+alias vim='mvim -v'
+```
+
+and then install plugins:
+
+```
 $ vim
-:BundleInstall
+:PluginInstall
 ```
 
 ## Mac OS X
