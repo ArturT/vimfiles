@@ -124,6 +124,9 @@ $ brew install ctags
 
 ## Plugin https://github.com/scrooloose/syntastic
 
+
+### eslint (optional)
+
 Install eslint: https://github.com/eslint/eslint
 
 ```
