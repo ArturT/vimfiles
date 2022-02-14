@@ -21,17 +21,7 @@ $ ln -s ~/.vim/vimrc ~/.vimrc
 # optional for gvim (Ubuntu)
 $ cd ~/.vim && touch gvimrc.local
 $ ln -s ~/.vim/gvimrc ~/.gvimrc
-```
 
-For the first time installation, please comment out in `~/.bash_profile`:
-
-```
-alias vim='mvim -v'
-```
-
-and then install plugins:
-
-```
 $ vim
 :PluginInstall
 ```
@@ -57,6 +47,7 @@ How to install [NeoVim](https://github.com/neovim/neovim) and dependencies:
 $ brew update
 $ brew install neovim
 
+# These steps are needed to run load vim config so that you can run comman like :PluginInstall
 $ mkdir -p ~/.config
 $ ln -s ~/.vim ~/.config/nvim
 $ ln -s ~/.vimrc ~/.config/nvim/init.vim
