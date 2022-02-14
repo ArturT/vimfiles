@@ -4,250 +4,266 @@
 "
 "==========================================================
 
-set nocompatible                  " Must come first because it changes other options.
-filetype off                      " required!
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-" setup Vundle
-set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#rc()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 "----------------------------------------------------------
 " PLUGINS
 "----------------------------------------------------------
 
-Bundle 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
-Bundle 'L9'
+Plugin 'L9'
 " succesor of Command-T pure fuzzy finding in vim-script
-Bundle 'vim-scripts/ctrlp.vim'
+Plugin 'vim-scripts/ctrlp.vim'
 
 " JSON.vim - JSON syntax highlighting
-Bundle 'JSON.vim'
+Plugin 'JSON.vim'
 
 " NerdCommenter - comment blocks of code
-Bundle 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdcommenter'
 
 " NerdTree - displays a neat file explorer window
-Bundle 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 
 " ack - use ack to search through files
-Bundle 'ack.vim'
+Plugin 'ack.vim'
 
 " https://github.com/rking/ag.vim
 " Required: brew install ag
-Bundle 'rking/ag.vim'
+Plugin 'rking/ag.vim'
 
 " delimitMate - autoclosing of (", etc. that does not clash with endwise
-Bundle 'delimitMate.vim'
+Plugin 'delimitMate.vim'
 
 " greplace.vim - plugin that allows search and replace across all of the project files
 " Gsearch Greplace
-Bundle 'greplace.vim'
+Plugin 'greplace.vim'
 
 " syntastic - plugin for displaying syntax errors
-Bundle 'Syntastic'
+Plugin 'Syntastic'
 
 " vim-endwise - wisely add 'end' in ruby
-Bundle 'endwise.vim'
+Plugin 'endwise.vim'
 
 " vim-markdown - syntax highlighting for markdown
-Bundle 'tpope/vim-markdown'
+Plugin 'tpope/vim-markdown'
 
-Bundle 'jtratner/vim-flavored-markdown'
+Plugin 'jtratner/vim-flavored-markdown'
 
 " vim-matchit - better pair matching for the % command
-Bundle 'matchit.zip'
+Plugin 'matchit.zip'
 
 " vim-rake - :Rake, :A, :R like in rails.vim, but without rails
-Bundle 'tpope/vim-rake'
+Plugin 'tpope/vim-rake'
 
 " vim-rake - :Rake, :A, :R like in rails.vim, but without rails
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
 " vim-rails - awesome vim-rails integration
-Bundle 'tpope/vim-rails.git'
+Plugin 'tpope/vim-rails.git'
 
 " vim-ruby - ruby integration
-Bundle 'ruby.vim'
+Plugin 'ruby.vim'
 
 " vim-surround - surrounding text with braces, quotes, html tags...
-Bundle 'surround.vim'
+Plugin 'surround.vim'
 
 " vim-textobj - dependency of rubyblock
-Bundle 'textobj-user'
+Plugin 'textobj-user'
 
 " vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
-Bundle 'textobj-rubyblock'
+Plugin 'textobj-rubyblock'
 
 " vim-unimpaired - some useful mappings, for example to swap code lines
-"Bundle 'unimpaired.vim'
+"Plugin 'unimpaired.vim'
 
 " vim-zoomwin - when maximizing the window it is possible to un-maximize it
-Bundle 'ZoomWin'
+Plugin 'ZoomWin'
 
 " https://github.com/mattn/emmet-vim
-Bundle 'mattn/emmet-vim'
+Plugin 'mattn/emmet-vim'
 
 " VimWiki
-Bundle 'vimwiki'
+Plugin 'vimwiki'
 
 " https://github.com/Valloric/YouCompleteMe
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
 " https://github.com/szw/YouCompleteMe
 " This fork supports ycm_filetype_identifier_grouping
-"Bundle 'szw/YouCompleteMe'
+"Plugin 'szw/YouCompleteMe'
 
 " '' to substitue word, or selection
-Bundle 'https://github.com/aklt/vim-substitute.git'
+Plugin 'https://github.com/aklt/vim-substitute.git'
 
 " To be aware where gem ctags are, and some other goodies
-Bundle 'https://github.com/tpope/vim-bundler.git'
+Plugin 'https://github.com/tpope/vim-bundler.git'
 
 " CoffeeScript syntax
-Bundle 'https://github.com/kchmck/vim-coffee-script'
+Plugin 'https://github.com/kchmck/vim-coffee-script'
 
 " Tabular
-Bundle 'https://github.com/godlygeek/tabular'
+Plugin 'https://github.com/godlygeek/tabular'
 
-Bundle "python.vim"
+Plugin "python.vim"
 
-Bundle "pyflakes"
+Plugin "pyflakes"
 
 " Vitality restores the FocusLost and FocusGained autocommand functionality.
 " Now Vim can save when iTerm 2 loses focus, even if it's inside tmux!
-Bundle "sjl/vitality.vim"
+Plugin "sjl/vitality.vim"
 
 " toggle between ruby blocks <leader>b
-Bundle "https://github.com/jgdavey/vim-blockle.git"
+Plugin "https://github.com/jgdavey/vim-blockle.git"
 
 " Add rename delete ...
-Bundle "https://github.com/tpope/vim-eunuch.git"
+Plugin "https://github.com/tpope/vim-eunuch.git"
 
 " https://github.com/garbas/vim-snipmate
 " SnipMate does not ship with any snippets
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
+Plugin "MarcWeber/vim-addon-mw-utils"
+Plugin "tomtom/tlib_vim"
+Plugin "garbas/vim-snipmate"
 " Add snippets
-Bundle "honza/vim-snippets"
+Plugin "honza/vim-snippets"
 
 " Indentation guides
-Bundle 'https://github.com/nathanaelkane/vim-indent-guides'
+Plugin 'https://github.com/nathanaelkane/vim-indent-guides'
 
 " Syntax for handlebars
-"Bundle "nono/vim-handlebars"
+"Plugin "nono/vim-handlebars"
 
 " Syntax for jade
-Bundle "digitaltoad/vim-jade"
+Plugin "digitaltoad/vim-jade"
 
-Bundle "bronson/vim-visual-star-search"
+Plugin "bronson/vim-visual-star-search"
 
 " https://github.com/xolox/vim-session
-Bundle "xolox/vim-session"
-Bundle "xolox/vim-misc"
+Plugin "xolox/vim-session"
+Plugin "xolox/vim-misc"
 
 " vim-pasta
-Bundle 'sickill/vim-pasta'
+Plugin 'sickill/vim-pasta'
 
 " vim-less
 " https://github.com/groenewege/vim-less
-Bundle 'vim-less'
+Plugin 'vim-less'
 
 " vim-yaml
-Bundle 'stephpy/vim-yaml'
+Plugin 'stephpy/vim-yaml'
 
 " https://github.com/derekwyatt/vim-scala
-Bundle 'derekwyatt/vim-scala'
+Plugin 'derekwyatt/vim-scala'
 
-Bundle 'tpope/vim-haml'
+Plugin 'tpope/vim-haml'
 
-Bundle 'slim-template/vim-slim'
+Plugin 'slim-template/vim-slim'
 
 " https://github.com/kien/rainbow_parentheses.vim
-Bundle 'kien/rainbow_parentheses.vim'
+Plugin 'kien/rainbow_parentheses.vim'
 
 " https://github.com/Lokaltog/vim-powerline
 " Deprecated
-"Bundle 'Lokaltog/vim-powerline'
+"Plugin 'Lokaltog/vim-powerline'
 " not yet finished
-"Bundle 'Lokaltog/powerline'
+"Plugin 'Lokaltog/powerline'
 
 " https://github.com/vim-airline/vim-airline
-Bundle 'vim-airline/vim-airline'
-Bundle 'vim-airline/vim-airline-themes'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " repeat stuff done in vim-surround
 " https://github.com/tpope/vim-repeat
-Bundle 'tpope/vim-repeat'
+Plugin 'tpope/vim-repeat'
 
 " https://github.com/terryma/vim-multiple-cursors
-Bundle 'terryma/vim-multiple-cursors'
+Plugin 'terryma/vim-multiple-cursors'
 
 " https://github.com/Lokaltog/vim-easymotion
-Bundle 'Lokaltog/vim-easymotion'
+Plugin 'Lokaltog/vim-easymotion'
 
 " https://github.com/othree/javascript-libraries-syntax.vim
-Bundle 'othree/javascript-libraries-syntax.vim'
+Plugin 'othree/javascript-libraries-syntax.vim'
 
 " https://github.com/wavded/vim-stylus
-Bundle 'wavded/vim-stylus'
+Plugin 'wavded/vim-stylus'
 
 " https://github.com/kana/vim-arpeggio
 " http://www.vim.org/scripts/script.php?script_id=2425
-Bundle 'kana/vim-arpeggio'
+Plugin 'kana/vim-arpeggio'
 
 " https://github.com/kshenoy/vim-signature
-Bundle 'kshenoy/vim-signature'
+Plugin 'kshenoy/vim-signature'
 
 " https://github.com/Peeja/vim-cdo
-Bundle 'Peeja/vim-cdo'
+Plugin 'Peeja/vim-cdo'
 
 " https://github.com/ekalinin/Dockerfile.vim
-Bundle 'ekalinin/Dockerfile.vim'
+Plugin 'ekalinin/Dockerfile.vim'
 
 " https://github.com/dart-lang/dart-vim-plugin
-Bundle 'dart-lang/dart-vim-plugin'
+Plugin 'dart-lang/dart-vim-plugin'
 
 " Comma and semi-colon insertion bliss for vim.
 " https://github.com/lfilho/cosco.vim
-Bundle 'lfilho/cosco.vim'
+Plugin 'lfilho/cosco.vim'
 
 " Add additional support for Ansible in VIM
 " https://github.com/chase/vim-ansible-yaml
-Bundle 'chase/vim-ansible-yaml'
+Plugin 'chase/vim-ansible-yaml'
 
 " https://github.com/dansomething/vim-hackernews
-Bundle 'dansomething/vim-hackernews'
+Plugin 'dansomething/vim-hackernews'
 
 " https://github.com/solars/github-vim
-Bundle 'solars/github-vim'
-"Bundle 'ArturT/github-vim'
+Plugin 'solars/github-vim'
+"Plugin 'ArturT/github-vim'
 
 " https://github.com/elixir-lang/vim-elixir
-Bundle 'elixir-lang/vim-elixir'
+Plugin 'elixir-lang/vim-elixir'
 
 " https://github.com/slashmili/alchemist.vim
-Bundle 'slashmili/alchemist.vim'
+Plugin 'slashmili/alchemist.vim'
 
 " https://github.com/isRuslan/vim-es6
-Bundle 'isRuslan/vim-es6'
+Plugin 'isRuslan/vim-es6'
 
 " https://github.com/leafgarland/typescript-vim
-Bundle 'leafgarland/typescript-vim'
+Plugin 'leafgarland/typescript-vim'
 
 " https://github.com/othree/html5.vim
-Bundle 'othree/html5.vim'
+Plugin 'othree/html5.vim'
+
+" https://github.com/briancollins/vim-jst
+Plugin "briancollins/vim-jst"
 
 "----------------------------------------------------------
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 
 " Leader key
 let mapleader=","
 let g:mapleader=","
 
-Bundle "git://github.com/briancollins/vim-jst.git"
 syntax enable                     " Turn on syntax highlighting.
-filetype plugin indent on         " Turn on file type detection.
 
 runtime macros/matchit.vim        " Load the matchit plugin.
 
