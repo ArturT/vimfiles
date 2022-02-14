@@ -1,23 +1,27 @@
 # Install
 
-## Before installation
-
-There might be a file `~/.vim/.netrwhist`. Please backup it and after you clone the repo then put the file back to the `~/.vim` directory.
-The file is ignored.
-
 ## Basic installation
 
-    $ git clone git@github.com:ArturT/vimfiles.git ~/.vim
-    $ git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    $ cd ~/.vim && touch vimrc.local && touch gvimrc.local
-    $ ln -s ~/.vim/.agignore ~/.agignore
-    $ ln -s ~/.vim/ackrc ~/.ackrc
-    $ ln -s ~/.vim/vimrc ~/.vimrc
-    # optional for gvim
-    $ ln -s ~/.vim/gvimrc ~/.gvimrc
+There might be a file `~/.vim/.netrwhist`. Please backup it.
 
-    $ vim
-    :BundleInstall
+```
+$ git clone git@github.com:ArturT/vimfiles.git ~/.vim
+$ git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+After you clone the repo then put the file `~/.vim/.netrwhist` back to the `~/.vim` directory.
+ 
+```
+$ cd ~/.vim && touch vimrc.local && touch gvimrc.local
+$ ln -s ~/.vim/.agignore ~/.agignore
+$ ln -s ~/.vim/ackrc ~/.ackrc
+$ ln -s ~/.vim/vimrc ~/.vimrc
+# optional for gvim
+$ ln -s ~/.vim/gvimrc ~/.gvimrc
+
+$ vim
+:BundleInstall
+```
 
 ## Mac OS X
 
