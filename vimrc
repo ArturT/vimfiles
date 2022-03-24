@@ -354,7 +354,7 @@ augroup markdown
 augroup END
 
 " automatically strip trailing whitespace for some file types
-autocmd FileType c,cpp,java,php,javascript,html,ruby,elixir autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
+autocmd FileType c,cpp,java,php,javascript,html,ruby,elixir,yaml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
 au! BufRead,BufNewFile *.json setfiletype json
 autocmd FileType json set equalprg=json_reformat
