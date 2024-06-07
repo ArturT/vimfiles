@@ -567,12 +567,16 @@ map <down>  <C-W>-
 map <leader>jf  <Esc>:%!python -m json.tool<CR>
 
 "colorscheme jellybeans
+
 " https://github.com/altercation/vim-colors-solarized
 "let g:solarized_termtrans = 1 " 0 when use 256 termscolors
 "let g:solarized_termcolors = 16
 "let g:solarized_contrast = 'high'
 set background=light
-colorscheme solarized
+"colorscheme solarized
+
+" https://github.com/romainl/flattened/
+colorscheme flattened_light
 
 " vim-airline/vim-airline-themes
 let g:airline_theme='solarized'
