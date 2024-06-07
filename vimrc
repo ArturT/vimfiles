@@ -227,9 +227,6 @@ Plugin 'solars/github-vim'
 " https://github.com/elixir-lang/vim-elixir
 Plugin 'elixir-lang/vim-elixir'
 
-" https://github.com/slashmili/alchemist.vim
-Plugin 'slashmili/alchemist.vim'
-
 " https://github.com/isRuslan/vim-es6
 Plugin 'isRuslan/vim-es6'
 
