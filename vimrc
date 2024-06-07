@@ -572,10 +572,11 @@ map <leader>jf  <Esc>:%!python -m json.tool<CR>
 "let g:solarized_termtrans = 1 " 0 when use 256 termscolors
 "let g:solarized_termcolors = 16
 "let g:solarized_contrast = 'high'
-set background=light
+"set background=light
 "colorscheme solarized
 
 " https://github.com/romainl/flattened/
+set background=light
 colorscheme flattened_light
 
 " vim-airline/vim-airline-themes
